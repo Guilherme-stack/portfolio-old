@@ -1,0 +1,92 @@
+.sobre{
+    background: url("../imagens/backgrounds/background-sobre.png") no-repeat center top;
+    padding: 80px 0px;
+}
+.texto-sobre div:first-child{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    margin-bottom: 20px;
+}
+.texto-sobre h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #575F64;
+}
+.texto-sobre div:last-child{
+    background-color: #81FBC0;
+    padding: 20px 20px;
+}
+
+.texto-sobre div:last-child p{
+    color: #575F64;
+    font-size: 27px;
+    font-weight: 700;
+}
+.texto-sobre ul{
+    margin: auto;
+    text-align: center;
+}
+.texto-sobre ul li{
+    display: inline;
+    margin-right: 10px;
+   
+}
+
+.texto-sobre ul li img{
+    transition:ease-in-out 0.3s;
+}
+
+.texto-sobre ul li img:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.foto{
+    margin-top: 70px;
+    background: #81FBC0;
+    padding: 30px 0px;
+}
+.foto img{
+    position: relative;
+    right: -50px;
+     
+    width: 100%;
+}
+
+@media (max-width:764px){
+    .foto {
+        margin-top: 70px;
+        background: #81FBC0;
+        padding: 10px 10px;
+    }
+    .foto img {
+        position: relative;
+        width: 100%;
+        right: 0px;
+    }
+    .texto-sobre h2 {
+        font-size: 27px;
+       
+    }
+    .texto-sobre div:first-child {
+         
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .texto-sobre div:first-child img{
+         width: 80%;
+    }
+    .texto-sobre div:last-child p {
+        color: #575F64;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .texto-sobre ul li img{
+        width: 17%;
+    }
+    .sobre {
+        
+        padding: 0px 0px;
+    }
+}

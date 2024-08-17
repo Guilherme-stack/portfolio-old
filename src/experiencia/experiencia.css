@@ -1,0 +1,129 @@
+.titulo-experiencia,.titulo-educacao{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    margin-bottom: 50px;
+}
+.titulo-experiencia h2, .titulo-educacao h2{
+    font-size: 50px;
+    color: #FBFCDD;
+    font-weight: 800;
+}
+.titulo-educacao{
+    text-align: right;
+}
+.titulo-educacao h2{
+    margin-bottom: 35px;
+}
+.carreira{
+    background: url("../imagens/backgrounds/background-xp.png") no-repeat center top;
+    padding: 70px 0;
+    margin-bottom: 20px;
+z-index: 99;
+position: relative;
+}
+
+.trampo1 {
+	background: rgba(251,252,221,0.7);
+	padding: 30px 10px;
+	margin-top: 80px;
+}
+.titulo-trampo{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    margin: 30px 0;
+}
+.titulo-trampo h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+.info-trampo{
+    background-color: #FBFCDD;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 15px;
+}
+.info-trampo h4{
+    color: #407093;
+    font-weight: 700;
+}
+.info-trampo p{
+    color: #575F64;
+}
+.edu1{
+    background-color:rgba(251,252,221,0.7) ;
+    padding: 30px 10px;
+    margin-bottom: 50px;
+}
+.titulo-edu{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    margin-bottom: 30px;
+}
+.titulo-edu h4{
+    font-weight: 700;
+text-transform: uppercase;
+font-size: 23px;
+
+}
+.info-edu{
+    background-color: #FBFCDD;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+}
+.info-edu h4{
+    color: #407093;
+    font-weight: 700;
+}
+.info-edu p{
+    color: #575F64;
+}
+@media (max-width:764px){
+    .titulo-experiencia h2, .titulo-educacao h2 {
+        font-size: 30px;
+    }
+    .titulo-experiencia img, .titulo-educacao img{
+        width: 70%;
+    }
+    .trampo1 {
+     
+        margin-top: 20px;
+    }
+    .info-trampo {
+        background-color: #FBFCDD;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        padding: 15px;
+        grid-gap: 10px;
+    }
+    .titulo-educacao{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .info-edu {
+        background-color: #FBFCDD;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        padding: 10px;
+    }
+    .titulo-edu h4 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:764px){
+     
+}

@@ -1,0 +1,65 @@
+.cases{
+    background: url("../imagens/backgrounds/background-cases.png") no-repeat center top;
+    padding: 50px 0;
+}
+.titulo-case{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    
+}
+.titulo-case h2{
+    font-size: 70px;
+    font-weight: 800;
+    color: #000;
+}
+
+.texto-case h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    font-size: 35px;
+}
+.texto-case div{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.texto-case div img{
+    width: 40% !important;
+}
+.desketop video{
+    width: 100%;
+}
+.owl-prev {
+    position: absolute;
+    right: 50px; 
+    bottom: 40px;
+}
+.owl-next{
+    position: absolute;
+    right: 0px; 
+    bottom: 40px;
+}
+.owl-prev span,.owl-next span{
+    font-size: 50px;
+}
+@media (max-width:764px){
+    .titulo-case h2 {
+        font-size: 50px;
+    }
+    .titulo-case img{
+        width: 70%;
+    }
+    .owl-prev {
+        position: absolute;
+        right: 50px; 
+        bottom:-30px;
+    }
+    .owl-next{
+        position: absolute;
+        right: 0px; 
+        bottom: -30px;
+    }
+}

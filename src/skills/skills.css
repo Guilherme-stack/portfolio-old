@@ -1,0 +1,131 @@
+.skills{
+    background: url("../imagens/backgrounds/background-skills.png") no-repeat center top;
+    padding: 80px 0;
+}
+.titulo-skills{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.titulo-skills h2{
+    font-size: 70px;
+    font-weight: 800;
+    color: #575F64;
+}
+.dev-web,.dev-design{
+    background: #FBFCDD;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+}
+.dev-web h2,.dev-design h2{
+    font-weight: 800;
+}
+.dev-design div{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.xp{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.xp img{
+    margin-bottom: 15px;
+}
+.xp h3{
+    font-weight: 700;
+}
+.tec {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	align-items: center;
+	position: relative;
+	padding-bottom: 210px;
+}
+.flipper{
+	 
+	 
+	transform-style: preserve-3d;
+    position: relative;
+}
+.flip-container:nth-last-child(1) .flipper{
+	animation: rotate 10s linear infinite;
+}
+.flip-container:nth-last-child(2) .flipper{
+	animation: rotate 12s linear infinite;
+}
+.flip-container:nth-last-child(3) .flipper{
+	animation: rotate 8s linear infinite;
+}
+.flip-container:nth-last-child(4) .flipper{
+	animation: rotate 15s linear infinite;
+}
+.flip-container:nth-last-child(5) .flipper{
+	animation: rotate 9s linear infinite;
+}
+.flip-container:nth-last-child(6) .flipper{
+	animation: rotate 13s linear infinite;
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+ 
+.back{
+	transform: rotateY(360deg);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+        
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+@media (max-width:764px){
+    .titulo-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    .titulo-skills img{
+        width: 100%;
+    }
+    .titulo-skills h2 {
+        font-size: 60px;
+        font-weight: 800;
+        color: #575F64;
+    }
+    .dev-web img{
+        width: 40%;
+    }
+    .dev-web{
+        margin-bottom: 20px;
+    }
+    .xp h3 {
+        font-weight: 700;
+        font-size: 13px;
+    }
+    .tec {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 70px;
+        grid-gap: 50px;
+    }
+    .flipper img{
+        width: 40%;
+    }
+    .skills {
+         
+        padding: 10px 0;
+    }
+       
+}

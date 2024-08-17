@@ -1,0 +1,26 @@
+.redes{
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    z-index: 100;
+}
+.redes ul li{
+    margin-bottom: 10px;
+}
+.redes ul li img{
+    width: 50%;
+}
+@media (max-width:764px){
+    .redes ul li{
+        display: inline;
+        margin-right: 10px;
+    }
+    .redes {
+        top: 10px;
+        text-align: center;
+    }
+    .redes ul li img{
+        width: 14%;
+         
+    }
+}

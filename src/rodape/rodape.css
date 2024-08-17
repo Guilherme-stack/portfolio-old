@@ -1,0 +1,15 @@
+ 
+.copy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+}
+.copy h3{
+    font-size: 20px;
+}
+.rodape{
+    background: #FBFCDD;
+    padding: 10px 0px;
+}
