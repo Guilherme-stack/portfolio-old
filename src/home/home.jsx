@@ -1,6 +1,5 @@
 import React from "react";
 import "../home/home.css";
-import backHome from "../imagens/backgrounds/background-home.png";
 import { gtmEvent } from "../utils/gtm.js";
 import img from "../imagens/icones/perfil-rodape.png";
 import bootstrap from "../imagens/icones/bootstrap-mov.png";

@@ -1,7 +1,5 @@
 import React from "react";
 import "./rodape.css";
-
-import topete from "../imagens/icones/topete.png";
 import perfil from "../imagens/icones/perfil-rodape.png";
 const rodape = () => {
   return (
